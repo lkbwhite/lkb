@@ -3,7 +3,7 @@
 f = open("/Users/SW/Desktop/study/KSW/phyton/sample.txt", 'r')
 totalSum = 0
 totalAvg = 0
-count = 1
+count = 0
 while True:
 	line = f.readline()
 	if not line : break
